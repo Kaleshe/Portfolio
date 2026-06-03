@@ -3,13 +3,12 @@
  */
 module.exports = {
   siteMetadata: {
-    title: "Kaleshe | Web designer & developer",
+    title: "Kaleshe | Helping small businesses grow with user-friendly websites",
     description:
-      "A frontend developer with over 3 years of professional experience in web development, UI design, and JavaScript frameworks such as React.",
+      "Web designer creating modern, user-friendly websites that help small businesses grow online.",
     siteUrl: "https://www.kaleshe.co.uk",
     og: {
-      siteName: "Kaleshe | Web designer & developer",
-      twitterCreator: "@stubbornneko",
+      siteName: "Kaleshe | Helping small businesses grow with user-friendly websites",
     },
   },
 
@@ -17,7 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: ["G-KMFWD06BSND"],
+        trackingIds: ["G-KMFWD06BSN"],
         pluginConfig: {
           head: false,
         },
