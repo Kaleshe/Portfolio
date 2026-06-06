@@ -81,6 +81,7 @@ const Card = ({ title, images, description, imageURL, url, id }) => {
         value: 1.0,
         currency: "GBP",
         link_url: url,
+        transport_type: "beacon",
       });
     }
   };
