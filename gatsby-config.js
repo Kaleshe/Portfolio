@@ -3,12 +3,14 @@
  */
 module.exports = {
   siteMetadata: {
-    title: "Kaleshe | Helping small businesses grow with user-friendly websites",
+    title:
+      "Kaleshe | Helping small businesses grow with user-friendly websites",
     description:
       "Web designer creating modern, user-friendly websites that help small businesses grow online.",
     siteUrl: "https://www.kaleshe.co.uk",
     og: {
-      siteName: "Kaleshe | Helping small businesses grow with user-friendly websites",
+      siteName:
+        "Kaleshe | Helping small businesses grow with user-friendly websites",
     },
   },
 
@@ -35,7 +37,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
-        alias: { "@components": "src/components" },
+        alias: { "@components": "src/components", "@utils": "src/utils" },
         extensions: ["jsx"],
       },
     },
