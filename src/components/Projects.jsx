@@ -77,7 +77,7 @@ const Card = ({ title, images, description, imageURL, url, id }) => {
   const handleOutboundClick = (event, url) => {
     if (window.gtag) {
       window.gtag("event", "conversion", {
-        send_to: "AW-16555496693/oRVdCOyDhLocEPWpo9Y9",
+        send_to: "AW-3065573427/oRVdCOyDhLocEPWpo9Y9",
         value: 1.0,
         currency: "GBP",
         link_url: url,
